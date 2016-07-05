@@ -1,0 +1,30 @@
+{
+  "name": "budgetwise-server",
+  "version": "1.0.0",
+  "description": "api and middleware of the budgetwise app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r babel-register index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rbose85/budgetwise.git"
+  },
+  "author": "Rajiv Bose <rbose85@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rbose85/budgetwise/issues"
+  },
+  "homepage": "https://github.com/rbose85/budgetwise#readme",
+  "dependencies": {
+    "hapi": "^13.4.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
+    "eslint": "^3.0.0",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.10.1"
+  }
+}
