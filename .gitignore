@@ -7,3 +7,6 @@ typings/
 
 # auto-generated project folders
 build/
+
+# project files and folders ...
+.env
