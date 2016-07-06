@@ -1,0 +1,21 @@
+{
+  "extends": "tslint:latest",
+  "rules": {
+    "no-constructor-vars": true,
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "semicolon": false,
+    "trailing-comma": [
+      true,
+      {
+        "singleline": "never",
+        "multiline": "never"
+      }
+    ]
+  },
+  "rulesDirectory": [
+  ]
+}
